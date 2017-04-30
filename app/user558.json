@@ -1,0 +1,142 @@
+{
+    "accuracy":0.93288377168567826,
+    "recommendations":[
+        {
+            "movie":"Forrest Gump (1994)",
+            "prediction":4.1517865318337694
+        },
+        {
+            "movie":"Big Lebowski, The (1998)",
+            "prediction":4.9422798082201593
+        },
+        {
+            "movie":"Star Wars: Episode IV - A New Hope (1977)",
+            "prediction":4.5818560500023677
+        },
+        {
+            "movie":"Armageddon (1998)",
+            "prediction":2.5207953867050366
+        },
+        {
+            "movie":"Back to the Future (1985)",
+            "prediction":4.4232246718753112
+        },
+        {
+            "movie":"Grease (1978)",
+            "prediction":3.92784563275502
+        },
+        {
+            "movie":"Eternal Sunshine of the Spotless Mind (2004)",
+            "prediction":5.1570989913502521
+        },
+        {
+            "movie":"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964)",
+            "prediction":4.7795198952761515
+        },
+        {
+            "movie":"Some Like It Hot (1959)",
+            "prediction":4.8901998097685384
+        },
+        {
+            "movie":"Being John Malkovich (1999)",
+            "prediction":4.170962717589501
+        },
+        {
+            "movie":"Fight Club (1999)",
+            "prediction":4.5079342700245402
+        },
+        {
+            "movie":"Apocalypse Now (1979)",
+            "prediction":4.7668196878632001
+        },
+        {
+            "movie":"Pulp Fiction (1994)",
+            "prediction":4.7817738261942342
+        },
+        {
+            "movie":"Amelie (Fabuleux destin d'Amí©lie Poulain, Le) (2001)",
+            "prediction":5.2743407011470209
+        },
+        {
+            "movie":"Saving Private Ryan (1998)",
+            "prediction":4.4870964619457752
+        }
+    ],
+    "predictions":[
+        {
+            "movie":"Godfather, The (1972)",
+            "prediction":5.6493993765903241,
+            "actual":5.0
+        },
+        {
+            "movie":"Fargo (1996)",
+            "prediction":4.1496237873170356,
+            "actual":4.0
+        },
+        {
+            "movie":"One Flew Over the Cuckoo's Nest (1975)",
+            "prediction":5.6493993765903241,
+            "actual":5.0
+        },
+        {
+            "movie":"Monty Python's Life of Brian (1979)",
+            "prediction":3.9047063150518788,
+            "actual":4.0
+        },
+        {
+            "movie":"Silence of the Lambs, The (1991)",
+            "prediction":4.3374276088215433,
+            "actual":5.0
+        },
+        {
+            "movie":"Godfather: Part II, The (1974)",
+            "prediction":5.3079868913106916,
+            "actual":5.0
+        },
+        {
+            "movie":"Mission: Impossible (1996)",
+            "prediction":3.955857154242564,,
+            "actual":4.0
+        },
+        {
+            "movie":"Taxi Driver (1976)",
+            "prediction":4.8194663723804227,
+            "actual":5.0
+        },
+        {
+            "movie":"E.T. the Extra-Terrestrial (1982)",
+            "prediction":4.836144357960551,
+            "actual":5.0
+        },
+        {
+            "movie":"Cast Away (2000)",
+            "prediction":3.2800108840272459,
+            "actual":4.0
+        },
+        {
+            "movie":"Shrek (2001)",
+            "prediction":4.8340602273929481,
+            "actual":5.0
+        },
+        {
+            "movie":"American Beauty (1999)",
+            "prediction":5.2325605363860825,
+            "actual":5.0
+        },
+        {
+            "movie":"Cell, The (2000)",
+            "prediction":2.9313643626466832,
+            "actual":3.0
+        },
+        {
+            "movie":"Graduate, The (1967)",
+            "prediction":5.6493993765903241,
+            "actual":5.0
+        },
+        {
+            "movie":"Boys Don't Cry (1999)",
+            "prediction":4.2943850613131831,
+            "actual":4.0
+        }
+    ]
+}

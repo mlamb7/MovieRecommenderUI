@@ -6,9 +6,13 @@
 </head>
 <body>
 <div ng-controller="MovieController as vm ">
+    <input type="button" ng-click="vm.user(2)" value="User 2">
+    <input type="button" ng-click="vm.user(558)" value="User 558">
+    <input type="button" ng-click="vm.user(48)" value="User 48">
+    <br>
     <input type="button" ng-click="vm.table('r')" value="Recommendations">
     <input type="button" ng-click="vm.table('p')" value="Predictions">
-    <div ng-show="vm.options == 'r'">
+    <div ng-show="vm.tableOptions == 'r'">
         <h1>Recommendations</h1>
         <table>
             <tr>
@@ -21,7 +25,7 @@
             </tbody>
         </table>
     </div>
-    <div ng-show="vm.options == 'p'">
+    <div ng-show="vm.tableOptions == 'p'">
         <h1>Predictions</h1>
         <table>
             <tr>

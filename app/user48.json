@@ -1,0 +1,142 @@
+{
+    "accuracy":0.94665737855703613,
+    "recommendations":[
+        {
+            "movie":"Aladdin (1992)",
+            "prediction":3.8767589191506375
+        },
+        {
+            "movie":"James and the Giant Peach (1996)",
+            "prediction":3.7311981542130437
+        },
+        {
+            "movie":"Mrs. Doubtfire (1993)",
+            "prediction":3.7323307234867946
+        },
+        {
+            "movie":"Sense and Sensibility (1995)",
+            "prediction":3.9692435874523375
+        },
+        {
+            "movie":"Rock, The (1996)",
+            "prediction":3.2326325197210091
+        },
+        {
+            "movie":"Seven (1995)",
+            "prediction":3.4756829671428715
+        },
+        {
+            "movie":"Twelve Monkeys (1995)",
+            "prediction":4.223879284663802
+        },
+        {
+            "movie":"Pretty Woman (1990)",
+            "prediction":3.3883064975642441
+        },
+        {
+            "movie":"Fargo (1996)",
+            "prediction":4.3860060247074406
+        },
+        {
+            "movie":"While You Were Sleeping (1995)",
+            "prediction":3.0523469289384555
+        },
+        {
+            "movie":"Star Trek: Generations (1994)",
+            "prediction":3.3911898114919161
+        },
+        {
+            "movie":"Shawshank Redemption, The (1994)",
+            "prediction":4.3931669337727355
+        },
+        {
+            "movie":"Santa Clause, The (1994)",
+            "prediction":2.7226009355401346
+        },
+        {
+            "movie":"Shine (1996)",
+            "prediction":4.3929700633398401
+        },
+        {
+            "movie":"Dances with Wolves (1990)",
+            "prediction":3.718052490962565
+        }
+    ],
+    "predictions":[
+        {
+            "movie":"Schindler's List (1993)",
+            "prediction":4.7049882327099262,
+            "actual":4.5
+        },
+        {
+            "movie":"Beauty and the Beast (1991)",
+            "prediction":3.6796327432955738,
+            "actual":3.5
+        },
+        {
+            "movie":"Forrest Gump (1994)",
+            "prediction":4.6409294234159502,
+            "actual":4.0
+        },
+        {
+            "movie":"Braveheart (1995)",
+            "prediction":4.384737761309518,
+            "actual":4.0
+        },
+        {
+            "movie":"Silence of the Lambs, The (1991)",
+            "prediction":3.5550966566201878,
+            "actual":3.5
+        },
+        {
+            "movie":"Jurassic Park (1993)",
+            "prediction":4.1058238765196711,
+            "actual":3.5
+        },
+        {
+            "movie":"Mask, The (1994)",
+            "prediction":2.7809234661457793,
+            "actual":3.5
+        },
+        {
+            "movie":"Lion King, The (1994)",
+            "prediction":4.1641464071253154,
+            "actual":4.0
+        },
+        {
+            "movie":"Titanic (1997)",
+            "prediction":3.8351882718253796,
+            "actual":4.0
+        },
+        {
+            "movie":"Pulp Fiction (1994)",
+            "prediction":4.4439012933445872,
+            "actual":4.5
+        },
+        {
+            "movie":"Sixth Sense, The (1999)",
+            "prediction":3.7729125021793721,
+            "actual":3.5
+        },
+        {
+            "movie":"Matrix, The (1999)",
+            "prediction":4.4973937462565408,
+            "actual":4.5
+        },
+        {
+            "movie":"Ace Ventura: Pet Detective (1994)",
+            "prediction":3.0871346427436208,,
+            "actual":3.5
+        },
+        {
+            "movie":"Natural Born Killers (1994)",
+            "prediction":3.364280803564117,
+            "actual":3.5
+        },
+        {
+            "movie":"Toy Story (1995)",
+            "prediction":4.0012512289268019,
+            "actual":4.0
+        }
+    ]
+}

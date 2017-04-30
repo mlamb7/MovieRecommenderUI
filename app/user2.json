@@ -1,0 +1,142 @@
+{
+    "accuracy":0.94128550369665653,
+    "recommendations":[
+        {
+            "movie":"Toy Story (1995)",
+            "prediction":3.8571512909845045
+        },
+        {
+            "movie":"Men in Black (1997)",
+            "prediction":3.4927967934005935
+        },
+        {
+            "movie":"Incredibles, The (2004)",
+            "prediction": 3.6691270737063211
+        },
+        {
+            "movie":"Back to the Future (1985)",
+            "prediction":4.0790558286879728
+        },
+        {
+            "movie":"Independence Day (1996)",
+            "prediction":3.2406932937398647
+        },
+        {
+            "movie":"Monsters, Inc. (2001)",
+            "prediction":4.0152774752768696
+        },
+        {
+            "movie":"American Beauty (1999)",
+            "prediction":4.3503177589482718
+        },
+        {
+            "movie":"Titanic (1997)",
+            "prediction":3.2800840226005517
+        },
+        {
+            "movie":"Mission: Impossible (1996)",
+            "prediction":3.584805754214361
+        },
+        {
+            "movie":"Sixth Sense, The (1999)",
+            "prediction":3.5145240722689817
+        },
+        {
+            "movie":"Shrek (2001)",
+            "prediction":3.8137943756445933
+        },
+        {
+            "movie":"Star Wars: Episode IV - A New Hope (1977)",
+            "prediction":3.7583845595084382
+        },
+        {
+            "movie":"Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981)",
+            "prediction":3.7861255644226981
+        },
+        {
+            "movie":"Aliens (1986)",
+            "prediction":3.711454088066104
+        },
+        {
+            "movie":"Matrix, The (1999)",
+            "prediction":4.4298869672070165
+        }
+    ],
+    "predictions":[
+        {
+            "movie":"Forrest Gump (1994)",
+            "prediction":3.6488285750787948,
+            "actual":3.0
+        },
+        {
+            "movie":"Pulp Fiction (1994)",
+            "prediction":4.2227757023496846,
+            "actual":4.0
+        },
+        {
+            "movie":"Jurassic Park (1993)",
+            "prediction":3.8282262400798865,
+            "actual":4.0
+        },
+        {
+            "movie":"Schindler's List (1993)",
+            "prediction":4.2021621260982078,
+            "actual":4.0
+        },
+        {
+            "movie":"Aladdin (1992)",
+            "prediction":2.9608858826196345,
+            "actual":3.0
+        },
+        {
+            "movie":"Seven (1995)",
+            "prediction":3.9312787803779856,
+            "actual":4.0
+        },
+        {
+            "movie":"Speed (1994)",
+            "prediction":3.2641699773073904,
+            "actual":3.0
+        },
+        {
+            "movie":"Home Alone (1990)",
+            "prediction":2.9668513600550077,
+            "actual":3.0
+        },
+        {
+            "movie":"Lion King, The (1994)",
+            "prediction":3.2594234760733252,
+            "actual":3.0
+        },
+        {
+            "movie":"Terminator 2: Judgment Day (1991)",
+            "prediction":4.324166251117453,
+            "actual":5.0
+        },
+        {
+            "movie":"Silence of the Lambs, The (1991)",
+            "prediction":3.7069032182933137,
+            "actual":3.0
+        },
+        {
+            "movie":"Mask, The (1994)",
+            "prediction":2.6618262126393608,
+            "actual":3.0
+        },
+        {
+            "movie":"Fugitive, The (1993)",
+            "prediction":3.5599562062998005,
+            "actual":3.0
+        },
+        {
+            "movie":"Ed Wood (1994)",
+            "prediction":3.2030892017265353,
+            "actual":3.0
+        },
+        {
+            "movie":"Usual Suspects, The (1995)",
+            "prediction":4.0095134664130434,
+            "actual":4.0
+        }
+    ]
+}

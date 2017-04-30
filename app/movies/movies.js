@@ -9,19 +9,47 @@
     function MovieController($scope, $http) {
         var vm = this;
         vm.table = table;
+        vm.user = user;
+        vm.load = load;
 
         function table(input){
-            vm.options = input;
+            vm.tableOptions = input;
         }
 
-        console.log("this controller actually works");
+        function user(input){
+            switch(input){
+                case 2:
+                    vm.userOptions='user2.json';
+                    break;
+                case 558:
+                    vm.userOptions='user558.json';
+                    break;
+                case 48:
+                    vm.userOptions='user48.json';
+                    break;
+            }
+            console.log("the error is not here");
+            load(vm.userOptions);
+        }
 
-        $http.get('https://doc-04-44-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/2hn4l5fr442lvqrd5abo6atc0fnj8amc/1493503200000/16591925424228278205/*/0B998qvIZO8zHVElzMlJhNEszMnc?e=download').success(function(data){
-            console.log("data loaded");
-            vm.data = data;
-            table('r');
-            console.log(vm.data);
-        })
+        function load(input) {
+            console.log("something is not fishy");
+            console.log(input);
+            $http.get(input).success(function(data){
+                vm.data = data;
+                console.log('data loaded');
+                table('r');
+            })
+        }
+
+        user(2);
+
+        // $http.get('user2.json').success(function(data){
+        //     console.log("data loaded");
+        //     vm.data = data;
+        //     table('r');
+        //     console.log(vm.data);
+        // })
     }
 
 })();
