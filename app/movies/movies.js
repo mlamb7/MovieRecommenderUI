@@ -36,10 +36,11 @@
             console.log("something is not fishy");
             console.log(input);
             $http.get(input).success(function(data){
+                console.log("httpget success");
                 vm.data = data;
                 console.log('data loaded');
                 table('r');
-            })
+            });
         }
 
         user(2);
