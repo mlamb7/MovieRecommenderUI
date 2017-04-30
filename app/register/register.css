@@ -1,0 +1,12 @@
+input{
+    margin: 10px 0;
+}
+
+div.register{
+    display: block;
+    text-align: center;
+}
+
+button {
+    width: 169px;
+}

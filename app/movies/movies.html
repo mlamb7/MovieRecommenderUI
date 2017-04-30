@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies</title>
+</head>
+<body>
+<div ng-controller="MovieController as vm ">
+    <input type="button" ng-click="vm.table('r')" value="Recommendations">
+    <input type="button" ng-click="vm.table('p')" value="Predictions">
+    <div ng-show="vm.options == 'r'">
+        <h1>Recommendations</h1>
+        <table>
+            <tr>
+                <td>Title</td>
+                <td>Prediction Score</td>
+            </tr>
+            <tbody ng-repeat="i in vm.data.recommendations">
+            <td>{{i.movie}}</td>
+            <td>{{i.prediction}}</td>
+            </tbody>
+        </table>
+    </div>
+    <div ng-show="vm.options == 'p'">
+        <h1>Predictions</h1>
+        <table>
+            <tr>
+                <td>Title</td>
+                <td>Score</td>
+            </tr>
+            <tbody ng-repeat="i in vm.data.predictions">
+                <td>{{i.movie}}</td>
+                <td>{{i.prediction}}</td>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
